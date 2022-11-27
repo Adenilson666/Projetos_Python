@@ -13,7 +13,7 @@ if opcao == 1:
     resp = input('Tabuada Completa? [SIM/NÃO] ').strip().upper()[0]
     print()
     if resp in 'Ss':
-        titulo =('TABUADA COMPLETA')
+        titulo = ('TABUADA COMPLETA')
         print(titulo.center(152))
         for i in range(1, 11):
             print(f'\n1 + {i:2} = {1 + i:2}', f'\t2 + {i:2} = {2 + i}', f'\t3 + {i:} = {3 + i}', f'\t4 + {i:2} = {4 + i}', 
