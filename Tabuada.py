@@ -8,9 +8,9 @@ def tabuada_soma():
         titulo = ('TABUADA COMPLETA')
         print(titulo.center(152))
         for i in range(1, 11):
-            print(f'\n1 + {i:2} = {1 + i:2}', f'\t2 + {i:2} = {2 + i}', f'\t3 + {i:} = {3 + i}', f'\t4 + {i:2} = {4 + i}', 
-            f'\t5 + {i:2} = {5 + i}',f'\t6 + {i:2} = {6 + i}', f'\t7 + {i:2} = {i + 7}', f'\t8 + {i:2} = {8 + i}',
-            f'\t9 + {i:2} = {9 + i}', f'\t10 + {i:2} = {10 + i}')
+            print(f'\n1 + {i:2} = {1 + i:2}', f'\t2 + {i:2} = {2 + i:2}', f'\t3 + {i:2} = {3 + i:2}', f'\t4 + {i:2} = {4 + i:2}', 
+            f'\t5 + {i:2} = {5 + i:2}',f'\t6 + {i:2} = {6 + i:2}', f'\t7 + {i:2} = {i + 7:2}', f'\t8 + {i:2} = {8 + i:2}',
+            f'\t9 + {i:2} = {9 + i:2}', f'\t10 + {i:2} = {10 + i:2}')
     else:
         print('Digite Dois Números especificos...')
         sleep(1)
@@ -30,9 +30,9 @@ def tabuada_subtracao():
         titulo = ('TABUADA COMPLETA')
         print(titulo.center(152))
         for i in range(1, 11):
-            print(f'\n1 - {i:2} = {1 - i:2}', f'\t2 - {i:2} = {2 - i}', f'\t3 - {i:} = {3 - i}', f'\t4 - {i:2} = {4 - i}', 
-            f'\t5 - {i:2} = {5 - i}',f'\t6 - {i:2} = {6 - i}', f'\t7 - {i:2} = {i - 7}', f'\t8 - {i:2} = {8 - i}',
-            f'\t9 - {i:2} = {9 - i}', f'\t10 - {i:2} = {10 - i}')
+            print(f'\n1 - {i:2} = {1 - i:2}', f'\t2 - {i:2} = {2 - i:2}', f'\t3 - {i:2} = {3 - i:2}', f'\t4 - {i:2} = {4 - i:2}', 
+            f'\t5 - {i:2} = {5 - i:2}',f'\t6 - {i:2} = {6 - i:2}', f'\t7 - {i:2} = {i - 7:2}', f'\t8 - {i:2} = {8 - i:2}',
+            f'\t9 - {i:2} = {9 - i:2}', f'\t10 - {i:2} = {10 - i:2}')
     else:
         print('Digite Dois Números especificos...')
         sleep(1)
@@ -52,9 +52,9 @@ def tabuada_multiplicacao():
         titulo = ('TABUADA COMPLETA')
         print(titulo.center(152))
         for i in range(1, 11):
-            print(f'\n1 x {i:2} = {1 * i:2}', f'\t2 x {i:2} = {2 * i}', f'\t3 x {i:} = {3 * i}', f'\t4 x {i:2} = {4 * i}', 
-            f'\t5 x {i:2} = {5 * i}',f'\t6 x {i:2} = {6 * i}', f'\t7 x {i:2} = {i * 7}', f'\t8 X {i:2} = {8 * i}',
-            f'\t9 x {i:2} = {9 * i}', f'\t10 x {i:2} = {10 * i}')
+            print(f'\n1 x {i:2} = {1 * i:2}', f'\t2 x {i:2} = {2 * i:2}', f'\t3 x {i:2} = {3 * i:2}', f'\t4 x {i:2} = {4 * i:2}', 
+            f'\t5 x {i:2} = {5 * i:2}',f'\t6 x {i:2} = {6 * i:2}', f'\t7 x {i:2} = {i * 7:2}', f'\t8 X {i:2} = {8 * i:2}',
+            f'\t9 x {i:2} = {9 * i:2}', f'\t10 x {i:2} = {10 * i:3}')
     else:
         print('Digite Dois Números especificos...')
         sleep(1)
@@ -74,9 +74,9 @@ def tabuada_divisao():
         titulo = ('TABUADA COMPLETA')
         print(titulo.center(152))
         for i in range(1, 11):
-            print(f'\n1 : {i:2} = {1 / i:2}', f'\t2 : {i:2} = {2 / i}', f'\t3 : {i:} = {3 / i}', f'\t4 : {i:2} = {4 / i}', 
-            f'\t5 : {i:2} = {5 / i}',f'\t6 : {i:2} = {6 / i}', f'\t7 : {i:2} = {i / 7}', f'\t8 : {i:2} = {8 / i}',
-            f'\t9 : {i:2} = {9 / i}', f'\t10 : {i:2} = {10 / i}')
+            print(f'\n1 : {i:2} = {1 / i:.2f}', f'\t2 : {i:2} = {i / 2:.2f}', f'\t3 : {i:2} = {i / 3:.2f}', f'\t4 : {i:2} = {i / 4:.2f}', 
+            f'\t5 : {i:2} = {5 / i:.2f}',f'\t6 : {i:2} = {6 / i:.2f}', f'\t7 : {i:2} = {i / 7:.2f}', f'\t8 : {i:2} = {i / 8:.2f}',
+            f'\t9 : {i:2} = {9 / i:.2f}', f'\t10 : {i:2} = {10 / i:.2f}')
     else:
         print('Digite Dois Números especificos...')
         sleep(1)
@@ -97,7 +97,7 @@ def main():
     print()
     nome = input('\033[mDigite Seu Nome: ').title()
     print(f'Olá {nome}, Bem - Vindo a Tabuada Interativa!!')
-    print("""[1] SOMA
+    print("""    [1] SOMA
     [2] SUBTRAÇÃO
     [3] MULTIPLICAÇÃO
     [4] DIVISÃO""")
@@ -109,6 +109,10 @@ def main():
         tabuada_subtracao()
     elif opcao == 3:
         tabuada_multiplicacao()
+    elif opcao == 4:
+        tabuada_divisao()
+    else:
+        main()
 
 
 if __name__ == '__main__':
