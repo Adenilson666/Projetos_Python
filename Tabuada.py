@@ -96,6 +96,7 @@ def main():
     print(titulo.center(40))
     print()
     nome = input('\033[mDigite Seu Nome: ').title()
+    print()
     print(f'Olá {nome}, Bem - Vindo a Tabuada Interativa!!')
     print("""    [1] SOMA
     [2] SUBTRAÇÃO
@@ -112,6 +113,8 @@ def main():
     elif opcao == 4:
         tabuada_divisao()
     else:
+        print('\033[1;31mErro!! Tente Novamente!!')
+        print()
         main()
 
 
