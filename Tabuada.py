@@ -11,6 +11,8 @@ def tabuada_soma():
             print(f'\n1 + {i:2} = {1 + i:2}', f'\t2 + {i:2} = {2 + i:2}', f'\t3 + {i:2} = {3 + i:2}', f'\t4 + {i:2} = {4 + i:2}', 
             f'\t5 + {i:2} = {5 + i:2}',f'\t6 + {i:2} = {6 + i:2}', f'\t7 + {i:2} = {i + 7:2}', f'\t8 + {i:2} = {8 + i:2}',
             f'\t9 + {i:2} = {9 + i:2}', f'\t10 + {i:2} = {10 + i:2}')
+            resp = str(input('Quer Continuar? [SIM/NÃO] ')).strip().upper()[0]
+            main()
     elif resp in 'Nn':
         print('Digite Dois Números especificos...')
         sleep(1)
